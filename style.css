@@ -1,0 +1,106 @@
+
+*{
+    font-family: sans-serif;
+    color: brown;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;}
+header{
+    background-color: white;
+    
+}
+.heading{
+    font-size: 4em;
+    font-weight: 2000px;
+    color: brown;
+    padding-top:50px ;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.allpagecolor{
+    background-color: #CDC7BD;
+    
+}
+
+.pos{
+    margin-top: 30px;
+    display: inline-block;
+    margin-left:100px;
+    
+}
+
+.date{
+    width: 500px;
+    height: 32px;
+
+}
+.underdatepicker{
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color: #CDC7BD;
+  
+}
+
+
+.radio{
+
+    display: inline-block;
+    margin-top: 30px;
+   padding-left: 100px;
+  
+}
+.radio2{
+    
+    display: inline-block;
+    margin-top: 30px;
+    padding-left: 193px;
+  
+    
+}
+
+.radio3{
+    
+    display: inline-block;
+    margin-top: 30px;
+    padding-left:235px;
+  
+    
+}
+
+
+.radio4{
+    
+    display: inline-block;
+    margin-top: 30px;
+    padding-left:130px;
+  
+    
+}
+.additionalcomments{
+    padding-top: 100px;
+   padding-left: 150px;
+}
+
+.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top:30px;
+    margin-bottom:30px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 37px;
+    padding-right: 37px;
+    background-color: #353437;
+    border: none;
+    color: white;
+    border-radius:4px;
+}
+
+.button:hover{
+    background-color: #4CAF50;
+
+}
