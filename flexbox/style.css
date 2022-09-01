@@ -20,11 +20,25 @@
     }
 
     .flex{
+        padding-top: 20px;
         display:flex;
         justify-content:space-evenly;
+        flex-wrap: wrap;
 
 
     }
+
+    .flexstart{
+        padding-top: 20px;
+        display:flex;
+        justify-content:flex-start;
+        flex-wrap: wrap;
+        padding-left: 119px;
+
+
+
+    }
+
 
     .size{
         width: 500px;
@@ -35,5 +49,9 @@
         display: flex;
         justify-content:flex-start ;
         padding-left: 119px;
+        padding-top:20px;
 
+    }
+    .pad{
+        padding-left: 119px;
     }
