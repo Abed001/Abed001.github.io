@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SE Factory</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="./images/se-logo.png" />
+  </head>
+  <body>
+    <!-- Start Hero -->
+    <div class="hero container">
+      <!-- Start Navigation Bar -->
+      <nav class="top-nav">
+        <img src="./images/se-logo.png" alt="Logo Image" />
+        <ul class="links">
+          <li>Home</li>
+          <li>Get Trained</li>
+          <li>Hire Talent</li>
+          <li>FAQs</li>
+          <li>Blog</li>
+          <li>About Us</li>
+          <li>Contact</li>
+          <li><button class="btn btn-green">Apply Now</button></li>
+        </ul>
+      </nav>
+      <!-- End Navigation Bar -->
+      <!-- Start Hero Content -->
+      <section class="hero-content">
+        <h1 class="hero-heading">
+          <span class="bold">Empowering youth</span> with tech jobs.
+        </h1>
+        <p class="hero-paragraph">
+          SE Factory’s top-ranked training programs graduate tech professionals
+          working for companies all over the world.
+        </p>
+        <button class="btn btn-green btn-large">Learn More</button>
+      </section>
+      <!-- End Hero Content -->
+    </div>
+    <!-- End Hero -->
+    <!-- Start Company Stats Section -->
+    <section class="company-stats container">
+      <div class="company-numbers bold mobile">
+        <div class="company-numbers-part">
+          <p class="company-stat">90%</p>
+          <p class="stat-description">Employment Success Rate</p>
+          <div class="dash"></div>
+        </div>
+        <div class="company-numbers-part">
+          <p class="company-stat">500+</p>
+          <p class="stat-description">Youth Trained Since 2016</p>
+          <div class="dash"></div>
+        </div>
+        <div class="company-numbers-part">
+          <p class="company-stat">145+</p>
+          <p class="stat-description">Global Recruitment Partner Companies</p>
+          <div class="dash"></div>
+        </div>
+      </div>
+      <div class="company-skills">
+        <div class="company-skills-image">
+          <img src="./images/artboard-1.jpg" alt="" />
+        </div>
+        <div class="company-skills-content">
+          <h1>Get the skills <span class="bold">companies look for.</span></h1>
+          <p>
+            Learn how to become a professional Full Stack Web Developer. Acquire
+            technical and interpersonal skills, and gain access to a vast
+            network of employers.
+          </p>
+          <p><a href="google.com">Learn More</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- End Company Stats Section -->
+    <!-- Start Programs Section -->
+    <section class="container programs">
+      <h1>Discover the program that’s right for you.</h1>
+      <div class="program-images mobile">
+        <div>
+          <a href="#"><img src="./images/fsw.png" alt="" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="./images/fcs.png" alt="" /></a>
+        </div>
+      </div>
+    </section>
+    <!-- End Programs Section -->
+    <!-- Start Markets Section -->
+    <section class="market container">
+      <div class="company-skills">
+        <div class="company-skills-image">
+          <img src="./images/artboard-2.jpg" alt="" />
+        </div>
+        <div class="company-skills-content">
+          <h1>Our graduates are market ready.</h1>
+          <p>
+            Students go through deep technical training, including robust theory
+            and intensive coding, with emphasis on critical thinking and a
+            can-do attitude.
+          </p>
+          <p><a href="google.com">Learn More</a></p>
+        </div>
+      </div>
+
+      <div class="rp-network">
+        <h1>Join our Global Recruitment Partner Network and</h1>
+        <h1>access top talent wherever you are.</h1>
+        <p>
+          150+ companies from over 10 countries have joined our network since
+          2016
+        </p>
+        <div class="rp-images">
+          <img src="./images/RP+partner+logos.jpg" alt="" /><img
+            src="./images/review-1.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- End Markets Section -->
+
+    <!-- Start Media Section -->
+    <section class="container media">
+      <h1>In The Media</h1>
+      <div class="media-images mobile">
+        <img src="./images/1.png" alt="" />
+        <img src="./images/2.png" alt="" />
+        <img src="./images/3.png" alt="" />
+        <img src="./images/4.png" alt="" />
+      </div>
+      <div class="media-images mobile">
+        <img src="./images/5.png" alt="" />
+        <img src="./images/9.png" alt="" />
+        <img src="./images/7.png" alt="" />
+        <img src="./images/8.png" alt="" />
+      </div>
+    </section>
+    <!-- End Media Section -->
+    <!-- Start Funding Section -->
+    <section class="funding container">
+      <h1>Funding Partners</h1>
+      <img src="./images/SEF_donors-01+(1).png" alt="" />
+      <div class="divider"></div>
+      <h1>Strategic Partners</h1>
+      <div class="strategic-images">
+        <img src="./images/image-asset.jpeg" alt="" />
+        <img src="./images/6.jpg" alt="" />
+        <img src="./images/3.jpg" alt="" />
+        <img src="./images/8.jpg" alt="" />
+      </div>
+    </section>
+    <!-- End Funding Section -->
+    <!-- Start Subscribe Section -->
+    <section class="subscribe container">
+      <h1>Subscribe to our newsletter</h1>
+      <h1>and stay up-to-date with our latest news.</h1>
+      <button class="btn btn-large btn-black">Subscribe</button>
+    </section>
+    <!-- End Subscribe Section -->
+    <!-- Start Footer -->
+    <footer class="footer">
+      <a href="#">Privacy Policy</a>
+      <p>Copyright © 2022 SE Factory SAL. All Rights Reserved.</p>
+      <p>Social Links</p>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>

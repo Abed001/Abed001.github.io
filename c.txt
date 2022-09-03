@@ -1,0 +1,337 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 100%;
+}
+
+/* Nav Bar*/
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.links > li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.links > li:first-child {
+  text-decoration: underline;
+}
+.links > li:last-child {
+  margin-right: 0px;
+}
+
+/* Hero */
+
+.hero {
+  background: url("./images/presentation.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  position: relative;
+}
+
+.hero-content {
+  padding: 40vh 0 10vh 0;
+  width: 50%;
+}
+
+.hero-heading {
+  font-size: 64px;
+  margin-bottom: 40px;
+}
+
+.hero-paragraph {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* Company Stats */
+
+.company-stats {
+  margin-bottom: 50px;
+}
+
+.company-numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 13vw;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.company-numbers-part {
+  width: 33.3%;
+}
+
+.company-stat {
+  color: #0d0;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.stat-description {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.company-skills {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-top: 100px;
+}
+.company-skills-image {
+  width: 50%;
+}
+
+.company-skills-image > img {
+  width: 100%;
+}
+
+.company-skills-content {
+  width: 50%;
+}
+
+.company-skills-content > h1 {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.company-skills-content > p {
+  font-size: 26px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+
+.company-skills-content a {
+  color: #0d0;
+}
+
+/* Programs */
+
+.programs {
+  background-color: #0d0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.programs > h1 {
+  font-size: 64px;
+  text-align: center;
+  width: 50vw;
+}
+
+.program-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.program-images > div {
+  width: 30%;
+}
+
+.program-images > div img {
+  width: 100%;
+}
+
+/* Market */
+
+.rp-network {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.rp-network > h1 {
+  font-size: 32px;
+}
+
+.rp-network > p {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.rp-images {
+  width: 100%;
+}
+.rp-images > img {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.rp-images > img:last-child {
+  width: 60%;
+}
+
+/* Media */
+.media {
+  background-color: #e6e6e6;
+  text-align: center;
+}
+
+.media > h1 {
+  font-size: 48px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.media-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.media-images > img {
+  width: 25%;
+}
+
+/* Funding */
+
+.funding {
+  text-align: center;
+}
+
+.funding > h1 {
+  font-size: 48px;
+  padding-top: 50px;
+}
+
+.funding > img {
+  width: 100%;
+}
+
+.strategic-images {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.strategic-images > img {
+  width: 25%;
+}
+
+/* Subscribe */
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6e6e6;
+}
+
+.subscribe > h1:last-child {
+  margin-bottom: 10px;
+}
+
+.subscribe > h1 {
+  font-size: 42px;
+}
+
+.subscribe > button {
+  margin: 20px 0;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10vw;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer > a {
+  color: #0d0;
+}
+
+/* Utlities */
+
+.container {
+  padding: 0 12vh;
+  width: 100%;
+}
+
+.btn {
+  padding: 14px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-green {
+  background-color: #0d0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-black {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-large {
+  font-size: 20px;
+  padding: 14px 10px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.dash {
+  border-top: 3px solid #000;
+  width: 20px;
+  margin: 0 auto;
+}
+
+.divider {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 800px) {
+  .mobile {
+    flex-direction: column;
+  }
+
+  .media-images > img {
+    width: 100%;
+  }
+
+  .program-images > div {
+    width: 100%;
+  }
+}
