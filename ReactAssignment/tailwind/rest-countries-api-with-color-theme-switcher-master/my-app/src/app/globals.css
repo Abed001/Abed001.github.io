@@ -1,0 +1,14 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --background-color:white;
+}
+
+input::placeholder {
+  color: gray; /* Change the color to your desired color */
+  font-weight: bold; /* Optional: Add bold weight */
+}
