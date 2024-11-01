@@ -19,7 +19,7 @@ const ThemeToggle = () => {
         className={`text-black dark:text-white rounded uppercase focus:outline-none`}
         onClick={handleThemeChange}
       >
-        {theme === 'dark' ? 'LIGHT' : 'DARK'} Mode
+        {theme === 'DARK' ? 'LIGHT' : 'DARK'} Mode
       </button>
     </div>
   );
